@@ -1,0 +1,230 @@
+
+<html>
+<head><title>STUDENT MANAGEMENT SYSTEM</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+<!--
+
+div {
+    resize: both;
+    overflow: auto;
+}
+table{
+resize: both;
+    overflow: auto;
+
+}
+
+ .zz{
+    margin: 0px 0px 0px 5000px;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons......................................... */
+.bu{
+    background-color:#666666;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color:#666666;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 20px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation...................................css3 */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+.f1{ background-image:url(13.jpg); background-size:100% 100%; background-repeat:no-repeat; border:solid; 	}
+
+.f2{ background-image:url(5.jpg); background-size:10% 100%;background-position:top right; background-repeat:no-repeat; padding-right:20px; border:solid;}
+
+.f3{ background-image:url(5.jpg); background-size:10% 100%;background-position:top left; background-repeat:no-repeat; padding-right:20px; border:solid;}
+
+ .h{   position: relative; text-align:left top; start;}
+ .di{background-color:#CCCCCC}
+.button {padding: 15px 25px; font-size: 24px;text-align: center; color:#000000; background-color:#FFFFFF; border: none; border-radius: 15px;box-shadow: 0 9px #999;}
+
+.button:active { background-color: #3e8e4; box-shadow: 0 5px #666;transform: translateY(4px);}
+.button1 {padding: 15px 25px; font-size: 24px;text-align: center; color:#990000; background-color:#333333; border: none; border-radius: 15px;box-shadow: 0 5px #055; }
+.button1:active{ background-color:#669933; box-shadow: 0 5px #666;transform: translateY(4px);}
+-->
+
+</style>
+<body>
+
+<table border="5"  height="100%" width="100%" >
+
+<td class="f2" width="100%" height="20%" bgcolor="#333333"><h1 class="h" align="CENTER"><font color="white" ALIGN="CENTER">STUDENT MANAGEMENT SYSTEM
+</font>
+</h1>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="stu.html"><button class="button1 button4">Home</button></a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="about.html"><button class="button1 button4">About</button></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="contact.html"><button class="button1 button4">Contact</button></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="Notification.html">	<button class="button1 button4">Notification</button></a>
+
+
+</td>
+
+<tr>
+<td class="f1" width="100%" height="418" background-size:100% 100%>
+
+
+
+<div align="center"><BR><BR><BR><BR><BR><BR><br><BR><BR><BR>
+
+
+<button class="button" onClick="document.getElementById('id01').style.display='block'" style="width:auto;">ADMIN LOG-IN</button>
+
+<button class="button" onClick="document.getElementById('id01').style.display='block'" style="width:auto;" class="zz">FACULTY LOG-IN</button>
+
+<br><br>
+
+<h1><marquee  behavior="alternate"><font style="color:#FFFFFF"  >...WELCOME...</font></marquee></h1>
+
+</div>
+
+
+</td>
+</tr>
+</table>
+
+<div id="id01" class="modal">
+<form class="modal-content animate" method="post">
+    <div class="imgcontainer">
+      <span onClick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required id="uname" >
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="pass" required id="pass">
+        
+      <button type="submit" class="bu" align="center" value="login" name="login" id="sub">Login</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onClick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+     <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</body>
+</html>
